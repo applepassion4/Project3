@@ -87,16 +87,40 @@ background-repeat:   no-repeat;
 padding: 20px;"></div>
 <script>
 
-	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+	
 
-	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-		maxZoom: 18,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox/streets-v11',
-		tileSize: 512,
-		zoomOffset: -1
-	}).addTo(mymap);
+	
+
+    fetch('/dataloc').then(function (response){
+
+          response.json().then(function(d){
+            var data=d.data;
+            var lg=parseFloat(data[0].split(',')[9])
+            var lt=parseFloat( data[0].split(',')[8])
+            console.log([lg, lt])
+            var mymap = L.map('mapid').setView([lt,lg], 8);
+            var c=0;
+            for (var i=0, n = data.length; i < n; i++) { // looping over the options  
+                var lg=parseFloat(data[i].split(',')[9])
+                var lt=parseFloat( data[i].split(',')[8])
+                c+=1;
+                if(c==10)
+                    break;
+                console.log([lg, lt])
+                var marker = L.marker([lt, lg]).addTo(mymap);
+                marker.bindPopup("<b>"+data[i].split(',')[2]+"</b><br>"+data[i].split(',')[4]).openPopup();
+            }
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                maxZoom: 18,
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                tileSize: 512,
+                zoomOffset: -1
+            }).addTo(mymap);
+              
+          });
+      });
 
 </script>
 

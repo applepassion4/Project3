@@ -11,6 +11,10 @@ app=Flask(__name__)
 client = MongoClient('localhost', 27017)
 db = client['project3']
 collection = db['years']
+file=open("Data/FAO.csv")
+locations=file.readlines()
+
+
 @app.route('/')
 @app.route('/index')
 def index():
@@ -26,11 +30,15 @@ def index():
     
     return render_template('index.html', title='Welcome', username=name,data=data)
 
+@app.route('/dataloc')
+def dataloc():
+    return json.dumps({"data":locations[10:]})
 @app.route('/news')
 def news():
     name = 'Rosali'
-    data={}    
-    return render_template('news.html', title='News', username=name,data=data)
+    data={}   
+
+    return render_template('news.html', title='Map', username=name,data=locations[:10])
 
 @app.route('/menu')
 def menu():
