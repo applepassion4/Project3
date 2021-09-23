@@ -26,6 +26,23 @@ def index():
     
     return render_template('index.html', title='Welcome', username=name,data=data)
 
+@app.route('/news')
+def news():
+    name = 'Rosali'
+    data={}    
+    return render_template('news.html', title='News', username=name,data=data)
+
+@app.route('/menu')
+def menu():
+    name = 'Rosali'
+    data={}    
+    return render_template('menu.html', title='Menu', username=name,data=data)
+
+@app.route('/contact')
+def contact():
+    name = 'Rosali'
+    data={}    
+    return render_template('contact.html', title='Contact', username=name,data=data)
 @app.route('/home')
 def home():
     name = 'Rosalia'

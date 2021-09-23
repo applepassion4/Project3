@@ -20,42 +20,38 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
-  background-image: url("{{url_for('static', filename='header.png')}}");
-  background-size: contain;
-  padding: 20px 10px;
+  background-color: #191624;
+  /* background-image: url("{{url_for('static', filename='banner.jpg')}}");
+  background-size: cover;*/
+  padding: 20px 10px; 
 }
 
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
+
+
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline solid 3px;
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  font-weight: bolder;
+  color: white;
+  text-shadow: aqua;
+  text-decoration-thickness: 10%;
+  text-decoration: underline solid 5px;
+    
+
+}
+.header a{
+  padding: 5px;
+  text-decoration:none;
+
   color: white;
 }
-.content{
-    padding: 20px;
-    margin: 0 50px 0 50px;
-   
-}
+
 .header-right {
   float: right;
 }
@@ -76,11 +72,13 @@ body {
 <body>
 
 <div class="header">
-  <a href="#default" class="active">Dashboard</a>
-  <div class="header-right">
+  <a href="#default" class="active">Graphs</a>
     <a href="home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a  href="/menu">Menu</a>
+    <a href="/contact">Contact</a>
+    <a href="/news">News</a>
+  <div class="header-right">
+    
   </div>
 </div>
 
