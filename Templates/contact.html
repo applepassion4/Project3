@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size:     cover;      
+    background-repeat:   no-repeat;
+    background-Position:  center center; 
+  
+}
+
+.header {
+  overflow: hidden;
+  background-color: #191624;
+  /* background-image: url("{{url_for('static', filename='banner.jpg')}}");
+  background-size: cover;*/
+  padding: 20px 10px; 
+}
+
+
+
+
+
+.header a:hover {
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline solid 3px;
+}
+
+.header a.active {
+  font-weight: bolder;
+  color: white;
+  text-shadow: aqua;
+  text-decoration: underline solid 5px;
+    
+
+}
+.header a{
+  padding: 5px;
+  text-decoration:none;
+
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.content{
+    /* padding: 20px;
+    margin: 0 50px 0 50px; */
+    background-size: contain;
+    margin: auto;
+    padding: auto;
+
+  Position:  absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  padding: 20px;
+}
+
+.contact1{
+    display: inline-block;
+    padding: 10px;
+    margin: 8px;
+    width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+h1, h4, h5,h4, h5 {
+    display: inline-block;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+  <div >
+    <a href="/" >Graphs</a>
+    <a  href="#home">Home</a>
+    <a  href="/menu">Menu</a>
+    <a class="active" href="/contact">Contact</a>
+    <a href="/news">News</a>
+  </div>
+</div>
+
+<div class="content">
+
+    <div class="contact1" >
+       <h5>Position:  Project Manager and Software Developer</h5><h4> </h4><br/>
+        <h5>Name:</h5><h4> Rosali Gonzalez</h4><br/>
+        <h5>Email:</h5><h4> rosali@gmail.com</h4><br/>
+        <h5>Phone Number:</h5><h4> --</h4>
+    </div>
+    <div class="contact1">
+        <h5>Position: </h5><h4> Unknown</h4><br/>
+        <h5>Name:</h5><h4> Sam Schappel</h4><br/>
+        <h5>Email:</h5><h4> sam@gmail.com</h4><br/>
+        <h5>Phone Number:</h5><h4> --</h4>
+    </div>
+    <div class="contact1" >
+        <h5>Position: </h5><h4> Unknown</h4><br/>
+        <h5>Name:</h5><h4> Shreyas Srivastav</h4><br/>
+        <h5>Email:</h5><h4> shreyas@gmail.com</h4><br/>
+        <h5>Phone Number:</h5><h4> --</h4>
+    </div>
+    <div class="contact1" >
+        <h5>Position:  </h5><h4> Unknown</h4><br/>
+        <h5>Name: </h5><h4>Joshua Pohl</h4><br/>
+        <h5>Email: </h5><h4> joshua@gmail.com</h4><br/>
+        <h5>Phone Number: </h5><h4> --</h4>
+    </div>
+    
+     
+      
+      <!-- <ul class="circle">
+          <li>
+            <div class="text">2015-16</div>
+          </li>
+          <li>
+            <div class="text">2017-18</div>
+          </li>
+          <li>
+              <div class="text">Food group</div>
+          </li>
+          <li>
+              <div class="text">Location</div>
+          </li>
+        
+          <ul> -->
+</div>
+
+    </body>
+</html>

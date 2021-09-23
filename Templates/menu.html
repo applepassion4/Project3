@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size:     cover;      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+  
+}
+
+.header {
+  overflow: hidden;
+  background-color: #191624;
+  /* background-image: url("{{url_for('static', filename='banner.jpg')}}");
+  background-size: cover;*/
+  padding: 20px 10px; 
+}
+
+
+
+
+
+.header a:hover {
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline solid 3px;
+}
+
+.header a.active {
+  font-weight: bolder;
+  color: white;
+  text-shadow: aqua;
+  text-decoration-thickness: 10%;
+  text-decoration: underline solid 5px;
+    
+
+}
+.header a{
+  padding: 5px;
+  text-decoration:none;
+
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.content{
+    /* padding: 20px;
+    margin: 0 50px 0 50px; */
+    background-size: contain;
+    margin: auto;
+    padding: auto;
+
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size:     cover;      
+  background-repeat:   no-repeat;
+
+  padding: 20px;
+}
+.circ {
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.sect {
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 2px solid red;
+  transform: rotate(0deg) skewY(-60deg);
+
+}
+.sect:hover {
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0; 
+  border-right: 150px solid green;
+
+  transform: rotate(0deg) skewY(-60deg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sect:nth-child(2) {
+    transform: rotate(180deg) skewY(-60deg);
+  border-right: 150px solid green;
+}
+.sect:nth-child(2):hover {
+    transform: rotate(180deg) skewY(-60deg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+
+.circle {
+  opacity: 0.6;
+  background-image: url("{{url_for('static', filename='food2.jpg')}}");
+  position: relative;
+  padding: 0;
+  margin: 1em auto;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  list-style: none;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.imgclass{
+    max-width: 100%;
+    max-height: 100%;
+}
+.contact1{
+    left: 20%;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 8px;
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h1, h4, h5,h4, h5 {
+    display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+  <div >
+    <a href="/" >Graphs</a>
+    <a  href="#home">Home</a>
+    <a  class="active" href="/menu">Menu</a>
+    <a href="/contact">Contact</a>
+    <a href="/news">News</a>
+  </div>
+</div>
+
+<div class="content">
+    <div class="contact1" >
+        <img src="{{url_for('static', filename='fatloss.jpeg')}}" class="imgclass"/>
+         <h5>Meal for fat loss </h5><br/>
+         <h5>Contains 15 high protein meals, 5 breakfast items and 1 protein Donut</h5>
+     </div>
+     <div class="contact1" >
+        <img src="{{url_for('static', filename='fatloss2.jpeg')}}" class="imgclass"/>
+        <h5>Second Meal for fat loss </h5><br/>
+        <h5>Contains 18 high protein meals, 6 breakfast items and 1 protein Donut</h5>
+  </div>
+     <div class="contact1" >
+        <img src="{{url_for('static', filename='fatloss3.jpeg')}}" class="imgclass"/>
+        <h5>third Meal for fat loss </h5><br/>
+        <h5>Contains 21 high protein meals, 7 breakfast items and 1 protein Donut</h5>
+     </div>
+     <div class="contact1" >
+        <div class="contact1" >
+            <img src="{{url_for('static', filename='fatloss4.jpeg')}}" class="imgclass"/>
+            <h5>Fourth Meal for fat loss </h5><br/>
+            <h5>Contains 10 high protein meals, 2 breakfast items and 1 protein Donut</h5>
+         </div>
+     </div>
+</div>
+
+    </body>
+</html>
