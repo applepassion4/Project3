@@ -123,7 +123,15 @@
 - Also, when making food at home it can be hard to measure your food intake. To combat the issue of inproper intake levels we created a menu page as a place to showcase nutritional recipes people can make at home, along with helping people gain a better understanding of what a proper balanced meal consists of.
  
 ### News
- * Shows the food insecurity rates (total & child) due to covid-19 for multiple years. This page shows a map view of every county for all states in the Unted States.
+
+- We embedded a tableu dashboard in our website from the website Feeding America: (https://www.feedingamerica.org)
+
+ * The visualization below shows how food insecurity and very low food security may have increased in 2020 and may increase in 2021 due to COVID-19 for the overall population and children by state, county, and congressional district. Click on each dashboard tab to view projected changes in food insecurity as a result of COVID-19 by county, congressional district, and state.
+
+<img width="891" alt="Screen Shot 2021-09-25 at 6 55 11 PM" src="https://user-images.githubusercontent.com/53684246/134787885-cf1b99cf-6cfe-47d3-8f6e-c6013977168d.png">
+
+ * Shows the food insecurity rates (total & child) due to covid-19 for multiple years. This page shows a map view of every county for all states in the United States.
+<img width="900" alt="Screen Shot 2021-09-25 at 6 55 45 PM" src="https://user-images.githubusercontent.com/53684246/134787888-854958c4-c4a1-434b-8ad3-229d68e5ed50.png">
 
 
 ### Map
