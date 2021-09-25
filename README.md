@@ -72,7 +72,11 @@
 
 <img width="1146" alt="Screen Shot 2021-09-25 at 12 51 18 PM" src="https://user-images.githubusercontent.com/53684246/134786582-b1f111c9-c38c-4706-8476-07f1edc0aade.png">
 
-*
+* We stored the dataframes into a dictionary because our data contains a list of different food sources (Exc: oil vegetables, fats, dairy, etc) and the list was added to the dictionary against the columns
+
+<img width="742" alt="Screen Shot 2021-09-25 at 12 52 19 PM" src="https://user-images.githubusercontent.com/53684246/134787016-f93ac093-f092-465b-b4bd-e6a1b94d1015.png">
+
+* After having all of our columns in the proper format, we used the dictionary to create the database
 
 
 ## Data Visualization
