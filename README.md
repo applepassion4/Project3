@@ -66,7 +66,7 @@
 
 ### Selecting Data Sources 
 
-* Our main data source was found at the US Department of Agriculture Website:  USDA ERS (https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-consumption/). The raw data was obtained in a CSV formart.
+* Our main data source was found at the US Department of Agriculture Website:  USDA ERS (https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-consumption/). The raw data was obtained in a CSV format.
 * We started off by importing the Pandas library and loading the data set into a pandas dataframe
 * A for loop was used to to clean multiple columns at once. The loop iterates through every element of a list and make adjustments by dropping all null columns
 
