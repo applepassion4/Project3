@@ -101,14 +101,19 @@
 • For the database, we used MongoDB. We integrated MongoDB with flask using flask PyMongo
 • All files are currently set up to create the Mongo DB and run locally.  If you want to run them using the cloud Mongo server, use the alternative steps provided in bullets below:  
 
-0) install ```pip install flask`` and `pip flask-pymongo
+0) install ```pip install flask``` and ```pip flask-pymongo```
     * if running cloud mongo, also ```pip install dnspython``` to your environment
-1)
-  
-
+1) create an app.py file and add PyMongo to our code and replace <password> and <dbname> in your connection string with your password and database name
+2) test our app by executing app.py and go to http://127.0.0.1:5000/test . If it worked, then we can proceed further.
+3) after the connection is done, we inserted the dictionary
+4) perform CRUD HTTPS Methods (GET, POST, PUT, DELETE)
+   
+   
 ## Website Pages
+   
 ### Home
  * Landing page
+   
 ### Graphs
  * Visualizations
 ### Menu
