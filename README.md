@@ -6,6 +6,7 @@
 * [Research Questions](#research-questions)
 * [Data Sources](#data-sources)
 * [Technologies](#technologies)
+* [Libraries & Dependencies](#libraries-dependencies)
 * [Data Cleaning](#data-cleaning)
 * [Data Visualization](#data-visualization)
 * [Website Pages](#website-pages)
@@ -39,12 +40,33 @@
 ## Technologies
 
 * Python
-2. What was the most consumed food group throughout the world?
-3. Which Country has the most balanced diet?
-4. What is the Impact of Covid on food insecurity? 
-5. Is there a difference in food consumption based on different demographics? (E.g., Children, Adults, Seniors, and various household income levels)
-6. What can we conclude through the findings?
+* Flask
+* Javascript
+* HTML/ CSS
+* Bootstrap
+* Plotly
+* JSON
+* MongoDB
+
+## Libraries & Dependencies
+
+# Libraries
+* JavaScript Libraries
+* Bootstrap
+
+# Python Dependencies
+* Pandas
+* Numpy
+* Flask
+* Flask_pymongo
+* Pymongo
+
+
 ## Data Cleaning
+
+<img width="1146" alt="Screen Shot 2021-09-25 at 12 51 18 PM" src="https://user-images.githubusercontent.com/53684246/134786582-b1f111c9-c38c-4706-8476-07f1edc0aade.png">
+
+
 
 
 ## Data Visualization
