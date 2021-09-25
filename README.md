@@ -39,8 +39,8 @@
 
 ## Data Visualization
 
-![Vis 1]('/static/data_viz_5.jpg')
-![Vis 2]('/static/data-viz_6.jpeg')
+![Image](static/data_viz_5.jpg)
+![Image](static/data-viz_6.jpg)
 
 ## Website Pages Explanation
 #### Home
