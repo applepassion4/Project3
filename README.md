@@ -7,7 +7,7 @@
 * [Data Sources](#data-sources)
 * [Data Cleaning](#data-cleaning)
 * [Data Visualization](#data-visualization)
-* [Website Pages Explanation](#website-pages-explanation)
+* [Website Pages](#website-pages)
 * [Reports](#reports)
 * [Team](#team)
 
@@ -47,7 +47,7 @@
 ![Image](static/data_viz_4.png)
 
 
-## Website Pages Explanation
+## Website Pages
 ### Home
  * Landing page
 ### Graphs
