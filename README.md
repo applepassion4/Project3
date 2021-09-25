@@ -12,14 +12,17 @@
 
 ## Project Summary
 
-This project seeks to analyze food comsumption catigorized by food groups in mutiple countries around the world. Mongo, Javascript, HTML and python are all used in order to create a website that projects all our findings. 
+* In this project we chose to analyze food comsumption and security catigorized by food groups in mutiple countries around the world. We believe that proper nutrition is very important but the truth is that it is easy to have bad eating habits without ever realizing so hopefully this website can shed light on some unhealthy eating habits.
+* We used Mongo, Javascript, HTML and python in order to create a website that projects all our findings in a way that can be viewed and used by people curious about the subject.
 
 ## Research Questions
 
 1. Which Countries consume the most of each food group?
 2. What was the most consumed food group throughout the world?
-3. Which Country has the most balanced diet?  
-4. What can we conclude through thes findings?
+3. Which Country has the most balanced diet?
+4. What is the Impact of Covid on food insecurity?
+5. Is there a difference in food consumption based on different demographics? (Ex: children,Adults, household income level)
+6. What can we conclude through the findings?
 
 ## Data Sources
 
