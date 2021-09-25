@@ -62,7 +62,7 @@
 
 ## Reports
 At the end of the project some conclusions we found were...
-1. The Most consumed food group was protein followed by grains, then vegetables, and fruit
+1. The most consumed food group was protein followed by grains, then vegetables, and fruit
 2. The least consumed food group was discretionary fats, oils, and added sugars followed by fruits
 3. People eat most of their meals at home followed by fast food and we found that people eat more at fast food establishments than actual restaurants.
 4. Food insecurity rates are higher now compared to 2019 but even in 2019, child food insecurity rates were worse than total food insecurity rates. (for NJ)
