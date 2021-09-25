@@ -64,9 +64,15 @@
 
 ## Data Cleaning
 
+### Selecting Data Sources 
+
+* Our main data source was found at the US Department of Agriculture Website:  USDA ERS (https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-consumption/). The raw data was obtained in a CSV formart.
+* We started off by importing the Pandas library and loading the data set into a pandas dataframe
+* A for loop was used to to clean multiple columns at once. The loop iterates through every element of a list and make adjustments by dropping all null columns
+
 <img width="1146" alt="Screen Shot 2021-09-25 at 12 51 18 PM" src="https://user-images.githubusercontent.com/53684246/134786582-b1f111c9-c38c-4706-8476-07f1edc0aade.png">
 
-
+*
 
 
 ## Data Visualization
