@@ -40,6 +40,10 @@ This project seeks to analyze food comsumption catigorized by food groups in mut
 ![Vis 2]('/static/data-viz_6.jpeg')
 
 ## Reports
+At the end of the project some conclusions we found was that
+    1. The Most consumed food group was protein followed by grains, then vegetables, and fruit
+    2. And the food group we found to be consumed the least were discretionary fats, oils, and added sugars
+    3. People eat most of their meals at home followed by fast food and we found that people eat more at fast food establishments than actual restaurants.
 
 ## Team 
 Created by:
