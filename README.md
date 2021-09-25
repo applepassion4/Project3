@@ -124,7 +124,7 @@
  
 ### News
 
-- We embedded a tableu dashboard in our website from the website Feeding America: (https://www.feedingamerica.org)
+We embedded a tableu dashboard in our website from the website Feeding America: (https://www.feedingamerica.org)
 
  * The visualization below shows how food insecurity and very low food security may have increased in 2020 and may increase in 2021 due to COVID-19 for the overall population and children by state, county, and congressional district. Click on each dashboard tab to view projected changes in food insecurity as a result of COVID-19 by county, congressional district, and state.
 
