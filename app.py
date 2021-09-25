@@ -11,7 +11,7 @@ app=Flask(__name__)
 client = MongoClient('localhost', 27017)
 db = client['project3']
 collection = db['years']
-file=open("Data/FAO.csv")
+file=open("Data/fao1.csv")
 locations=file.readlines()
 
 
@@ -81,8 +81,8 @@ def dashboardbar(query):
         # sizes.append(one[i][range_[0]][total])
         sizes.append(group1[i])
     df=pd.DataFrame({"group":group,"total":sizes})
-    
-    fig=px.bar(x=group,y=sizes, title="Group Graph ",color_discrete_sequence=px.colors.sequential.RdBu)
+    colors=range(len(sizes))    
+    fig=px.bar(x=group,y=sizes, title="",color=colors ,width=900,height=900)
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     # return json.dumps({"graph":graphJSON})
     # import plotly.graph_objects as go
@@ -122,7 +122,7 @@ def dashboardbar3(query):
     df=pd.DataFrame({"Range":range_,"total":sizes})
     
     
-    fig=px.bar(x=range_,y=sizes, title="Group Graph ",color_discrete_sequence=px.colors.sequential.RdBu)
+    fig=px.bar(x=range_,y=sizes, color=range_,title="",color_discrete_sequence=px.colors.sequential.RdBu,width=900,height=900)
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     # return json.dumps({"graph":graphJSON})
     # import plotly.graph_objects as go
@@ -188,7 +188,7 @@ def dashboardbar2(query):
     df=pd.DataFrame({"Range":range_,"total":sizes})
     
 
-    fig=px.bar(x=range_,y=sizes, title="Group Graph ",color_discrete_sequence=px.colors.sequential.RdBu)
+    fig=px.bar(x=range_,y=sizes, title="",color=range_,color_discrete_sequence=px.colors.sequential.RdBu,width=900,height=900)
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     # return json.dumps({"graph":graphJSON})
     # import plotly.graph_objects as go
@@ -227,7 +227,7 @@ def dashboard(query):
         sizes.append(y)
 
     df=pd.DataFrame({"location":labels,"value":sizes})
-    fig=px.pie(df,values='value',names="location", title="Group Location Graph ",color_discrete_sequence=px.colors.sequential.RdBu)
+    fig=px.pie(df,values='value',names="location", title="Group Location Graph ")
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     # return json.dumps({"graph":graphJSON})
 
