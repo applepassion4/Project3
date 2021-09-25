@@ -3,11 +3,11 @@
 
 ## Table of Content
 * [Project Summary](#project-summary)
-* [Research Questions](#questions)
+* [Research Questions](#research-questions)
 * [Data Sources](#data-sources)
 * [Data Cleaning](#data-cleaning)
 * [Data Visualization](#data-visualization)
-* [Website Page Explanation](#website-page-explanation)
+* [Website Pages Explanation](#website-pages-explanation)
 * [Reports](#reports)
 * [Team](#team)
 
