@@ -117,6 +117,7 @@
 ### Menu
 
 ![earth-spin5-2-1619034499](https://user-images.githubusercontent.com/53684246/134787610-dc7a820d-49c6-477c-af6b-5c7cc87fb9db.gif)
+<img width ="400"![earth-spin5-2-1619034499](https://user-images.githubusercontent.com/53684246/134787610-dc7a820d-49c6-477c-af6b-5c7cc87fb9db.gif)
  * Placeholder for future nutritional recipes
  * One of the reasons we chose to take a closer look at personal food consumption in this project is because it can be easy to overeat and it can be hard to know what the proper intake levels should be for a single meal. 
 
