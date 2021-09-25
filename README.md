@@ -6,9 +6,9 @@
 * [Research Questions](#questions)
 * [Data Sources](#data-sources)
 * [Data Cleaning](#data-cleaning)
+* [Data Visualization](#data-visualization)
+* [Reports](#reports)
 * [Team](#team)
-
-
 
 ## Project Summary
 
@@ -16,10 +16,10 @@ This project seeks to analyze food comsumption catigorized by food groups in mut
 
 ## Research Questions
 
-1. Which Countries consume the most of each food group? 
+1. Which Countries consume the most of each food group?
 2. What was the most consumed food group throughout the world?
 3. Which Country has the most balanced diet?  
-4. What can we conclude through thes findings? 
+4. What can we conclude through thes findings?
 
 ## Data Sources
 
@@ -34,9 +34,16 @@ This project seeks to analyze food comsumption catigorized by food groups in mut
 ## Data Cleaning
 
 
+## Data Visualization
+
+![Vis 1]('/static/data_viz_5.jpg')
+![Vis 2]('/static/data-viz_6.jpeg')
+
+## Reports
+
 ## Team 
 Created by:
 * [@sammyschapps87](http://github.com/sammyschapps87)
 * [@applepassion4](http://github.com/applepassion4)
 * [@ssrivastav0494](http://github.com/ssrivaatav0494)
-* [@]
+* [@Joshp1219](http://github.com/Joshp1219)

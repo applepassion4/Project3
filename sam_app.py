@@ -1,20 +1,32 @@
-from flask import app, render_template
-from flask import Flask, jsonify, render_template
+from flask import request
+from flask import app
+from flask import Flask, render_template
 import pandas as pd
 import plotly
 import plotly.express as px
 from pymongo import MongoClient
 import json
 import datetime
+import csv
 
 app=Flask(__name__)
 
 
-@app.route("/")
-def home():
-    print("this is the home route: ", datetime.datetime.now())
+@app.route("/", methods=['GET', 'POST'])
+def index():
+    return render_template("s_new_index.html", title="Welcome")
 
-    return render_template("sam_index.html")
+@app.route('/data', methods=['GET', 'POST'])
+def data():
+    if request.method == 'POST':
+        f = request.form['csvfile']
+        data = []
+        with open(f) as file:
+            csvfile = csv.reader(file)
+            for row in csvfile:
+                data.append(row)
+        return render_template('s_new_data.html', data=data.to_html())
+
 
 
 
