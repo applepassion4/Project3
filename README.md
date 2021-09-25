@@ -9,6 +9,7 @@
 * [Libraries & Dependencies](#libraries-dependencies)
 * [Data Cleaning](#data-cleaning)
 * [Data Visualization](#data-visualization)
+* [Setup](#setup)
 * [Website Pages](#website-pages)
 * [Reports](#reports)
 * [Team](#team)
@@ -87,6 +88,23 @@
 ### Location of food acquisition for consumption by demographic (where are you getting food to eat)
 ![Image](static/data_viz_4.png)
 
+##  [Setup](#setup)
+
+**NOTE**: The followings files were involved in web-scraping or used to create csvs that were imported into the Mongo DB and DO NOT need to be run: 
+- databasecreate.ipynb
+- database.ipynb
+- datacleaner.ipynb
+
+
+#### Setup Instructions
+
+• For the database, we used MongoDB. We integrated MongoDB with flask using flask PyMongo
+• All files are currently set up to create the Mongo DB and run locally.  If you want to run them using the cloud Mongo server, use the alternative steps provided in bullets below:  
+
+0) install ```pip install flask`` and ```pip flask-pymongo`` to your environment 
+    * if running cloud mongo, also ```pip install dnspython``` to your environment
+1)
+  
 
 ## Website Pages
 ### Home
@@ -95,9 +113,13 @@
  * Visualizations
 ### Menu
  * Placeholder for future nutritional recipes
- * One of the reasons we chose to take a closer look at personal food consumption in this project is because it can be easy to overeat and it can be hard to know what the proper intake levels should be for a single meal. Also, when making food at home it can be hard to measure your food intake. To combat the issue of inproper intake levels we created a menu page as a place to showcase nutritional recipes people can make at home, along with helping people gain a better understanding of what a proper balanced meal consists of. 
+ * One of the reasons we chose to take a closer look at personal food consumption in this project is because it can be easy to overeat and it can be hard to know what the proper intake levels should be for a single meal. Also, when making food at home it can be hard to measure your food intake. To combat the issue of inproper intake levels we created a menu page as a place to showcase nutritional recipes people can make at home, along with helping people gain a better understanding of what a proper balanced meal consists of.
+
+
 ### News
  * Shows the food insecurity rates (total & child) due to covid-19 for multiple years. This page shows a map view of every county for all states in the Unted States.
+
+
 ### Map
  * Showcases food consumption in multiple countries
 
