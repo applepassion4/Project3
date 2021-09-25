@@ -42,6 +42,17 @@
 ![Vis 1]('/static/data_viz_5.jpg')
 ![Vis 2]('/static/data-viz_6.jpeg')
 
+## Website Pages Explanation
+#### Home
+  * landing page
+#### Graphs
+  * Visualizations
+#### Menu
+  * Placeholder for future nutritional recipes
+  * One of the reasons we chose to take a closer look at personal food consumption in this project is because it can be easy to over-eat and it can be hard to know what the proper intake levels should be for a single meal. Also, when making food at home it can be hard to measure your food intake. To combat this issue we created a menu page as a place to showcase nutritional recipes people can make at home or help people gain a better understanding of what a proper balanced meal consists of. 
+#### News
+#### Map
+
 ## Reports
 At the end of the project some conclusions we found was that...
 1. The Most consumed food group was protein followed by grains, then vegetables, and fruit
