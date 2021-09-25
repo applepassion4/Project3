@@ -1,7 +1,7 @@
-# Foodies (Project 3)
+# Food Consumption Analysis- Foodies 
 ![Food Home Page](/static/home_page.jpg)
 
-## Table of Content
+## Table of Contents
 * [Project Summary](#project-summary)
 * [Research Questions](#research-questions)
 * [Data Sources](#data-sources)
