@@ -5,6 +5,7 @@
 * [Project Summary](#project-summary)
 * [Research Questions](#research-questions)
 * [Data Sources](#data-sources)
+* [Technologies](#technologies)
 * [Data Cleaning](#data-cleaning)
 * [Data Visualization](#data-visualization)
 * [Website Pages](#website-pages)
@@ -35,6 +36,14 @@
 * (https://www.bls.gov/cex/tables/geographic/mean.htm#select)
 * (https://feedingamericaaction.org/resources/state-by-state-resource-the-impact-of-coronavirus-on-food-insecurity/)
 
+## Technologies
+
+* Python
+2. What was the most consumed food group throughout the world?
+3. Which Country has the most balanced diet?
+4. What is the Impact of Covid on food insecurity? 
+5. Is there a difference in food consumption based on different demographics? (E.g., Children, Adults, Seniors, and various household income levels)
+6. What can we conclude through the findings?
 ## Data Cleaning
 
 
