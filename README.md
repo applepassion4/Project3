@@ -39,14 +39,17 @@
 
 
 ## Data Visualization
-
+### Total food intake by year (2015-2016 & 2017-2018)
 ![Image](static/data_viz_5.jpg)
+### Food group consumption by demographic
+![Image](static/data_viz_2.png)
+### Location of food acquisition for consumption by demographic (where are you getting food to eat)
+![Image](static/data_viz_4.png)
 
-![Image](static/data-viz_6.jpeg)
 
 ## Website Pages Explanation
 #### Home
-  * landing page
+  * Landing page
 #### Graphs
   * Visualizations
 #### Menu
