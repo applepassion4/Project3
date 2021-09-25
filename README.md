@@ -98,8 +98,8 @@
 
 #### Setup Instructions
 
-• For the database, we used MongoDB. We integrated MongoDB with flask using flask PyMongo
-• All files are currently set up to create the Mongo DB and run locally.  If you want to run them using the cloud Mongo server, use the alternative steps provided in bullets below:  
+- For the database, we used MongoDB. We integrated MongoDB with flask using flask PyMongo
+- All files are currently set up to create the Mongo DB and run locally.  If you want to run them using the cloud Mongo server, use the alternative steps provided in bullets below:  
 
 0) install ```pip install flask``` and ```pip flask-pymongo```
     * if running cloud mongo, also ```pip install dnspython``` to your environment
