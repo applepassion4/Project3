@@ -21,8 +21,8 @@
 1. Which Countries consume the most of each food group?
 2. What was the most consumed food group throughout the world?
 3. Which Country has the most balanced diet?
-4. What is the Impact of Covid on food insecurity?
-5. Is there a difference in food consumption based on different demographics? (Ex: children,Adults, household income level)
+4. What is the Impact of Covid on food insecurity? 
+5. Is there a difference in food consumption based on different demographics? (E.g., Children, Adults, Seniors, and various household income levels)
 6. What can we conclude through the findings?
 
 ## Data Sources
