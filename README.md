@@ -56,7 +56,7 @@
   * Showcases food consumption in multiple countries
 
 ## Reports
-At the end of the project some conclusions we found was that...
+At the end of the project some conclusions we found was...
 1. The Most consumed food group was protein followed by grains, then vegetables, and fruit
 2. The least consumed food group was discretionary fats, oils, and added sugars followed by fruits
 3. People eat most of their meals at home followed by fast food and we found that people eat more at fast food establishments than actual restaurants.
