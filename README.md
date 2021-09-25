@@ -116,12 +116,9 @@
    
 ### Menu
 
-![earth-spin5-2-1619034499](https://user-images.githubusercontent.com/53684246/134787610-dc7a820d-49c6-477c-af6b-5c7cc87fb9db.gif)
-<img width ="400"![earth-spin5-2-1619034499](https://user-images.githubusercontent.com/53684246/134787610-dc7a820d-49c6-477c-af6b-5c7cc87fb9db.gif)
+
  * Placeholder for future nutritional recipes
  * One of the reasons we chose to take a closer look at personal food consumption in this project is because it can be easy to overeat and it can be hard to know what the proper intake levels should be for a single meal. 
-
-
  * Also, when making food at home it can be hard to measure your food intake. To combat the issue of inproper intake levels we created a menu page as a place to showcase nutritional recipes people can make at home, along with helping people gain a better understanding of what a proper balanced meal consists of.
 
 
