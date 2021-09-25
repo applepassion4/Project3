@@ -50,11 +50,11 @@
 
 ## Libraries & Dependencies
 
-# Libraries
-* JavaScript Libraries
-* Bootstrap
+**Libraries**
+* [JavaScript Libraries](https://medium.com/javascript-in-plain-english/best-javascript-data-visualization-libraries-for-2020-15291919a176)
+* [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
-# Python Dependencies
+**Python Dependencies**
 * Pandas
 * Numpy
 * Flask
