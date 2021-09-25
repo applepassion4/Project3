@@ -20,12 +20,12 @@
 
 ## Research Questions
 
-1. Which Countries consume the most of each food group?
-2. What was the most consumed food group throughout the world?
-3. Which Country has the most balanced diet?
-4. What is the Impact of Covid on food insecurity? 
-5. Is there a difference in food consumption based on different demographics? (E.g., Children, Adults, Seniors, and various household income levels)
-6. What can we conclude through the findings?
+*  Which Countries consume the most of each food group?
+*  What was the most consumed food group throughout the world?
+*  Which Country has the most balanced diet?
+*  What is the Impact of Covid on food insecurity? 
+*  Is there a difference in food consumption based on different demographics? (E.g., Children, Adults, Seniors, and various household income levels)
+*  What can we conclude through the findings?
 
 ## Data Sources
 
@@ -70,11 +70,11 @@
 
 
 ## Data Visualization
-### * Total food intake by year (2015-2016 & 2017-2018)
+### Total food intake by year (2015-2016 & 2017-2018)
 ![Image](static/data_viz_5.jpg)
-### * Food group consumption by demographic
+### Food group consumption by demographic
 ![Image](static/data_viz_2.png)
-### * Location of food acquisition for consumption by demographic (where are you getting food to eat)
+### Location of food acquisition for consumption by demographic (where are you getting food to eat)
 ![Image](static/data_viz_4.png)
 
 
