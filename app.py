@@ -11,7 +11,7 @@ app=Flask(__name__)
 client = MongoClient('localhost', 27017)
 db = client['project3']
 collection = db['years']
-file=open("Data/fao1.csv")
+file=open("data/food_table_2015_2016.csv")
 locations=file.readlines()
 
 
@@ -252,6 +252,12 @@ def dashboardgroup(query):
     print(data['group'],q)
 
     return json.dumps(data)
-    
+
+@app.route('/countrymap')
+def country_food_map():
+    return render_template('country_food.html')
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)

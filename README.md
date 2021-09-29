@@ -36,8 +36,10 @@ This project seeks to analyze food comsumption catigorized by food groups in mut
 
 ## Data Visualization
 
-![Vis 1]('/static/data_viz_5.jpg')
-![Vis 2]('/static/data-viz_6.jpeg')
+![Vis 1]('/static/Data_viz_1.jpg')
+![Vis 2]('/static/data-viz_2.png')
+![Vis 2]('/static/data-viz_3.png')
+![Vis 2]('/static/data-viz_4.png')
 
 ## Reports
 
@@ -47,3 +49,4 @@ Created by:
 * [@applepassion4](http://github.com/applepassion4)
 * [@ssrivastav0494](http://github.com/ssrivaatav0494)
 * [@Joshp1219](http://github.com/Joshp1219)
+

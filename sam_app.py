@@ -4,7 +4,6 @@ from flask import Flask, render_template
 import pandas as pd
 import plotly
 import plotly.express as px
-from pymongo import MongoClient
 import json
 import datetime
 import csv
